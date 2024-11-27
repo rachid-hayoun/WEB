@@ -1,0 +1,192 @@
+body{
+    background-color: #fec819;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family:Arial, Helvetica, sans-serif}
+img{/*Images*/
+    width: 550px;
+    height: 130px;}
+.giff{/*Gif LeBron*/
+    display: flex;
+    justify-content: space-around;
+    background-color: black;}
+.gif{ 
+    width: 550px;
+    height: 90px;}
+.Biog{/*Biographie*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    white-space: pre-line;}
+.menu{/*Menu switch*/
+    display: flex;
+    justify-content: space-around;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color: white;}
+.ssbio{/*sous titre bio*/
+    display: flex;
+    justify-content:space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;}
+.biographie{/*contenu de la bio*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;}
+.lebron{/*sous titres*/
+    display: flex;
+    justify-content: space-around;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;}
+.descimageall{/*Description des 5 images*/
+    display: flex;
+    justify-content:space-around;}
+.palmares{/*Palmarès*/
+    display: flex;
+    justify-content:space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;;
+    color: black;}
+.palm{/*Contenu du palmarès*/
+    display: flex;
+    justify-content: space-around;}
+.titres{/*records*/
+    white-space: pre-line;
+    font-size: 16px;
+    margin-left: 10px;}
+.imageall{/*5 premières images*/
+    display: flex;
+    justify-content: space-around;}
+.premiereimage{/*1ere image trophées*/
+    margin-left: 0%;
+    width: 400px;
+    height: 300px;}
+.secondeimage{ /*2eme image trophées*/ 
+    width: 400px;
+    height: 300px;}
+.Actua{/*class de actu 1*/
+    display: flex;
+    justify-content: space-around;}
+.bronny{/*image de lebron et bronny*/
+    width: 525px;
+    height: 325px;
+    margin-left: 20px;
+    margin-right: 20px;}
+.infooa{/*texte de gauche de l'image*/
+    white-space: pre-line;
+    text-align: justify;}
+.infoob{ /*teste a droite de l'image*/
+    white-space: pre-line;
+    text-align: justify;}
+.actualités{/*class du sous titre actu*/
+    display: flex;
+    justify-content:space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;}
+.actualitésbis{/* classe de la 2eme actu*/
+    display: flex;
+    justify-content:space-between;}
+.infoelection{/*texte de l'election*/
+    white-space: pre-line;}
+.infoshoes{/*texte chassures*/
+    white-space: pre-line;}
+.USA{/*image elec*/ 
+    white-space: pre-line;
+    width: 500px;
+    height: 220px;
+    margin-right:15px;}
+.chaussures{/*image chaussres*/
+    white-space: pre-line;
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;}
+.high{/*classe du sous titre les highlights et reseaux*/
+    display: flex;
+    justify-content:space-around;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    margin-top: 0%;
+    margin:0px 0px 25px;}
+.video{/* classe des 3premeires video*/
+    display: flex;
+    justify-content:space-between;}
+.videobis{/*classe de 2video du bas*/
+    display: flex;
+    justify-content:space-around;}
+.logooo{/*classe de logo reseaux*/
+    display: flex;
+    justify-content:space-evenly;}
+.rezooo{/* classe nom des reseaux*/
+    display: flex;
+    justify-content:space-evenly;
+    font-size:21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.snap{
+    width: 100px;
+    height: 100px;}
+.facebook{
+    width: 100px;
+    height: 100px;}
+.twitter{
+    width: 100px;
+    height: 100px;}
+.insta{
+    width: 100px;
+    height: 100px;}
+.fs{ /*sous titre des fan site */
+    display: flex;
+    justify-content:space-around;  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;}
+.fso{/*class des liens*/
+    display: flex;
+    justify-content:space-evenly;
+    font-size:21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0%;
+    padding: 0;}
+.coloracc{/*couleur du mot accueil*/
+    color:white;}
+.colorjb{/*couleur du mot justin bieber*/
+    color:white;}
+.colorws{/*couleur du mot will smith*/
+    color:white;}
+.colorh{/*color highlight et reseaux*/
+    color:white;}
+.colorbp{/*color mot biographie*/
+    color:white;}
+.colora{/* color mot actua*/
+    color:white;}
+.colorfsv{/* color mot fansite video*/
+    color:purple;}
+.colorfsvv{/* color mot fansite jeux video*/
+    color:purple;}
+.colorfsp{/* color mot fansite photos*/
+    color:purple;}
+.colori{/* color mot fansite officiel*/
+    color:white;}
+.colox{/*color mot twitter*/
+    color:white;}
+.colorfb{/*color mot facebook*/
+    color:white;}
+.colors{/*color mot snap*/
+    color:white;}
+.colorso{/*color mot site officiel*/
+    color:purple}
+.footer{/*Formulaire contact*/
+    display: flex;
+    justify-content: space-around;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color: white;
+    background: black;}
+.contactes{/*color  mot contact*/
+    color:blueviolet;}
+@media (min-width: 1680px) and (max-width: 1920px){body{background-color :  #fec819}}
+@media (min-width: 1280px) and (max-width: 1680px){body{background-color: #fec819}}
+@media (max-width: 1280px) {body{background-color:#fec819}}

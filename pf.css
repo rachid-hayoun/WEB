@@ -1,0 +1,42 @@
+body{
+    background-image: url('design.jpg');
+    background-size:cover;
+    font-family: Quantum;
+    font-size: 25px;
+    color:white;}
+.texte{
+    font-size:55px;
+    text-align: center;
+    white-space: pre-line;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);}
+.tete{
+    display: flex;
+    justify-content:space-around}
+.rea{
+    color:white}
+.gh{
+    color:white}
+.rh{margin-top: auto;
+    font-size: 85px;
+    margin-bottom: 0%;}
+.cv{
+    color:white;}
+.a{
+   color:rgb(255, 255, 255); 
+ text-shadow:
+    2px 2px 0px black,  
+    -2px 2px 0px black,  
+    2px -2px 0px black,  
+    -2px -2px 0px black; }
+.ctcs{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;}
+.tel{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;}
+.tt{
+    display: flex;
+    justify-content: space-between;}

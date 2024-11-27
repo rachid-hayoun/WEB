@@ -1,0 +1,80 @@
+body{background-color: #ffc966;}
+  .img{
+  height: 200px; width: 300px;
+  
+}
+.swith{/*sous titres*/
+    display: flex;
+    justify-content: space-around;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;}
+.titre{display: flex;
+justify-content: center;
+}
+.description{display: flex;
+justify-content: center;
+}
+.alltext{display:flex;
+justify-content: space-around;
+}
+.allimage{display: flex;
+justify-content: space-evenly;
+}
+.Recompenses{display: flex;
+justify-content: space-evenly;
+}
+.recom{display: flex;
+justify-content: center;
+}
+.video{display: flex;
+justify-content: space-evenly;
+}
+.img_social{height: 140px;width: 100px;
+}
+.img_social{display: flex;
+justify-content: space-evenly;}
+.socials{display: flex;
+justify-content: space-evenly;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #575757;
+    color: #fff;
+    border-radius: 5px;
+}
+.contact{display: flex;
+justify-content: flex-start;
+}
